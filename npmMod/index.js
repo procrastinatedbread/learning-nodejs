@@ -6,5 +6,5 @@ import chalk from "chalk";
 import validator from "validator";
 console.log(chalk.red.underline.inverse("false"));
 // const res = validator.isEmail("nikhil@nikhilco.m");
-const res = validator.isEmail("nikhil@nikhil.com");
+const res = validator.isEmail("nikhil@nikhilco.m");
 console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
